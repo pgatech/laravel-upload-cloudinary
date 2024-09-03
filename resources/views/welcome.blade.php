@@ -13,7 +13,7 @@
 
 <body class="bg-slate-100 h-screen flex items-center justify-center">
 
-    <div class="felx flex-row gap-8">
+    <div class="flex-row gap-8">
         <form action="{{ route('upload') }}" method="POST" enctype="multipart/form-data" class="bg-white shadow-md rounded-md px-8 pt-6 pb-8 mb-4 border-t-4 border-indigo-600/70">
             @csrf
             <div class="mb-4">
